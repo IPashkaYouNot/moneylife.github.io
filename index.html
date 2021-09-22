@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MoneyLife</title>
+        <link href="style.css" rel="stylesheet">
+        <link href='fonts/constan.ttf' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <div class="title_header">
+                <h1>MoneyLife</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="registration">
+                <div class="title">
+                    <h2>Створити обліковий запис</h2>
+                    <p class="lh1px">Це швидко і просто.</p>
+                </div>
+                <div class="forms">
+                    <form autocomplete="off">
+                        <p>
+                            <input type="text" id="name" placeholder="Ім'я" autofocus>
+                            <input type="text" id="surname" placeholder="Прізвище">
+                        </p>
+                        <p>
+                            <input type="email" id="email" placeholder="Електронна пошта" required>
+                        </p>
+                        <p>
+                            <input type="password" id="password" placeholder="Пароль" required>
+                        </p>
+                        <p class="tip">
+                            Кількість членів сім'ї <img src="Family.png" style="height: 5%; width: 5%;">
+                        </p>
+                        <p>
+                            <input type="number" id="amount" min="1" placeholder="Кількість членів сім'ї" value="2">
+                        </p>
+                        
+                        <p>
+                            <input type="submit" id="submit" value="Зареєструватися">
+                        </p>
+                        <p>
+                            <button id="sign"><a href="signin.html" id="sign_a">Уже маєте обліковий запис?</a></button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p class="contacts"><a href="table.html" target="_blank">Контактні дані</a></p>
+        </footer>
+    </body>
+</html>
+
